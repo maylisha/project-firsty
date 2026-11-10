@@ -38,3 +38,50 @@ nav a {
 nav a:hover {
     color: #D49B32;
 }
+
+.hero {
+    min-height: 500px;
+    background-color: #B9D9EF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    color: #526B7A;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    color: #405563;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #F8E9A8;
+    color: #526B7A;
+    padding: 13px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #F0D77C;
+}
+
+.hero-image img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+}
