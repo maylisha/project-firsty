@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFDF5;
+}
+
+header {
+    background-color: #F8E9A8;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    color: #526B7A;
+    font-size: 26px;
+}
+
+.logo p {
+    color: #526B7A;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #526B7A;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D49B32;
+}
