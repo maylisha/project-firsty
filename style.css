@@ -22,11 +22,18 @@ header {
     font-size: 26px;
 }
 
-.logo p {
-    color: #526B7A;
-    font-size: 13px;
-    margin-top: 5px;
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
+
+.brand img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
 
 nav a {
     text-decoration: none;
